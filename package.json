@@ -26,7 +26,8 @@
     "hubot-hipchat": "~2.5.1-4",
     "q": "~0.9.6",
     "underscore": "~1.5.1",
-    "pm2": "~0.5.5"
+    "pm2": "~0.5.5",
+    "sax": "~0.5.5"
   },
   "engines": {
     "node": ">= 0.8.x",
@@ -37,6 +38,6 @@
     "chai": "~1.7.2"
   },
   "scripts": {
-      "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha"
   }
 }
