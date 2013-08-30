@@ -37,12 +37,14 @@ getJSON = (options) ->
 module.exports = (robot) ->
 
   robot.respond /feed me (.+)/i, (msg) ->
-    gmap.keyword = msg.match[0] or '便當'
-
     param = ("#{k}=#{v}" for k, v of gmap).join '&'
 
     getJSON("#{url}#{param}")
       .fail (e) ->
         print e
       .done ({results}) ->
-        msg.send _.pluck results, 'name'
+        msg.send _.chain(results)
+          .pluck('name')
+          .shuffle()
+          .first(3)
+          .value()
