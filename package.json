@@ -5,8 +5,9 @@
   "keywords": [
     "github",
     "hubot",
-    "campfire",
-    "bot"
+    "bot",
+    "hipchat",
+    "eztable"
   ],
   "description": "A simple helpful robot for your Company",
   "licenses": [
@@ -32,6 +33,10 @@
     "npm": ">= 1.1.x"
   },
   "devDependencies": {
-    "ntwitter": "~0.5.0"
+    "mocha": "~1.12.1",
+    "chai": "~1.7.2"
+  },
+  "scripts": {
+      "test": "./node_modules/.bin/mocha"
   }
 }
