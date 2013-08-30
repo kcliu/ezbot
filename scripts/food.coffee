@@ -36,7 +36,7 @@ getJSON = (options) ->
 
 module.exports = (robot) ->
 
-  robot.respond /feed me (.+)/i, (msg) ->
+  robot.respond /feed me/, (msg) ->
     param = ("#{k}=#{v}" for k, v of gmap).join '&'
 
     getJSON("#{url}#{param}")

@@ -1,6 +1,7 @@
 [
- "tweet.coffee", 
  "shipit.coffee", 
  "github-status.coffee",
- "good-night"
+ "good-night",
+ "reload",
+ "zen"
  ]
