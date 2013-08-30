@@ -1,7 +1,7 @@
 [
  "shipit.coffee", 
  "github-status.coffee",
- "good-night",
- "reload",
- "zen"
+ "good-night.coffee",
+ "reload.coffee",
+ "zen.coffee"
  ]
