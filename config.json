@@ -1,0 +1,9 @@
+{
+  "gmap": {
+    "key": "AIzaSyCRDi60aHfZ3emQKWTomzg2hePrrhiuT4k",
+    "location": "25.038282,121.547866",
+    "radius": "1000",
+    "sensor": "false",
+    "types": "restaurant|food"
+  }
+}
