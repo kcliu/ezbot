@@ -48,5 +48,3 @@ module.exports = (robot) ->
       item = msg.match[1].trim()
       user = msg.message.user.name or "路人"
       orders.push new Order(item, user)
-    else
-      msg.send "還沒開始點餐"
