@@ -1,4 +1,3 @@
-
 # Description:
 #   點餐
 #
@@ -43,8 +42,8 @@ module.exports = (robot) ->
     )
     msg.finish()
 
-  robot.respond /(.+)/i, (msg)->
+  robot.catchAll (msg)->
     if isOrdering
-      item = msg.match[1].trim()
+      item = msg.message.text.trim()
       user = msg.message.user.name or "路人"
       orders.push new Order(item, user)
