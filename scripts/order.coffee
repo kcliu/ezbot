@@ -40,6 +40,7 @@ module.exports = (robot) ->
       ((current, order)-> current + "\n" + order.toString()),
       "點餐結束，統計如下："
     )
+    orders = []
     msg.finish()
 
   robot.catchAll (msg)->
