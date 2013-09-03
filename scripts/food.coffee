@@ -4,7 +4,7 @@ https = require 'https'
 Q = require 'q'
 _ = require 'underscore'
 
-{gmap} = require "#{__dirname}/../config.json"
+{gmap} = require "#{__dirname}/../data/feedme.json"
 
 url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?'
 print = -> # no-op
