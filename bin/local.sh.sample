@@ -5,4 +5,5 @@ export HUBOT_HIPCHAT_PASSWORD=""
 export HUBOT_HIPCHAT_ROOMS=""
 export PORT=""
 export HUBOT_FORECAST_API_KEY=""
+export HUBOT_WEATHER_CELSIUS="true"
 bin/hubot -a hipchat -n ezBot

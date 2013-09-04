@@ -3,5 +3,7 @@
  "github-status.coffee",
  "good-night.coffee",
  "reload.coffee",
- "zen.coffee"
- ]
+ "zen.coffee",
+ "weather.coffee",
+ "imdb.coffee"
+]
