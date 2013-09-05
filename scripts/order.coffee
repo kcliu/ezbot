@@ -45,6 +45,9 @@ module.exports = (robot) ->
 
   robot.catchAll (msg)->
     if isOrdering
-      item = msg.message.text.trim()
-      user = msg.message.user.name or "路人"
-      orders.push new Order(item, user)
+      regex = new RegExp "^#{robot.name}:(.+)"
+      text = msg.message.text
+      if regex.test text
+        item = text.trim()
+        user = msg.message.user.name or "路人"
+        orders.push new Order(item, user)
