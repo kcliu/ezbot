@@ -1,11 +1,11 @@
 ezbot
 =====
 
-hubot for hipcaht in EZTABLE
+hubot for hipchat in EZTABLE
 
 ### write your own feature
 
-put your script under `CWD/scripts`
+put your script under `scripts/`
 
 ### Deploy
 
