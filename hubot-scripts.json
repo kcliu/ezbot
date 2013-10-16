@@ -6,5 +6,6 @@
  "zen.coffee",
  "weather.coffee",
  "imdb.coffee",
+ "karma.coffee"
  "web.coffee"
 ]
