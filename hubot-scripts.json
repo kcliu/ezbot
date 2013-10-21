@@ -1,11 +1,11 @@
 [
- "shipit.coffee", 
  "github-status.coffee",
  "good-night.coffee",
- "reload.coffee",
- "zen.coffee",
- "weather.coffee",
  "imdb.coffee",
  "karma.coffee"
- "web.coffee"
+ "reload.coffee",
+ "shipit.coffee",
+ "weather.coffee",
+ "web.coffee",
+ "zen.coffee"
 ]
