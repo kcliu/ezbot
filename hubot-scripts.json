@@ -5,6 +5,7 @@
  "karma.coffee"
  "reload.coffee",
  "shipit.coffee",
+ "spot.coffee",
  "weather.coffee",
  "web.coffee",
  "zen.coffee"
