@@ -1,5 +1,6 @@
 ezbot
 =====
+[![Build Status](https://travis-ci.org/kcliu/html2jade.png?branch=master)](https://travis-ci.org/kcliu/ezbot)
 
 hubot for hipchat in EZTABLE
 
@@ -15,5 +16,5 @@ put your script under `scripts/`
 
 ###Testing
 
-* Mocha + Chai 
-* plz do BDD 
+* Mocha + Chai
+* plz do BDD
