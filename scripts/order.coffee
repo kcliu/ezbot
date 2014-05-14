@@ -51,3 +51,4 @@ module.exports = (robot) ->
         item = text.trim()
         user = msg.message.user.name or "路人"
         orders.push new Order(item, user)
+        msg.send "好的，#{user} 點了 #{item}"
